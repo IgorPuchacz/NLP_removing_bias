@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+*.env
+*.yml
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+*.egg-info/
+
+# Data
+data/raw/*
+data/processed/*
+
+# Models
+models/*
+!models/README.md
+
+# Results (figures, logs)
+results/figures/*
+results/tables/*
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+
+# Checkpoints
+*.ckpt
+*.pt
+*.bin
+*.h5
+
+# IPython history
+.profile_default/
+
+# Kaggle-specific
+__output__
+working/
