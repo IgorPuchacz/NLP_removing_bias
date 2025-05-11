@@ -34,7 +34,6 @@ data/processed/*
 
 # Models
 models/*
-!models/README.md
 
 # Results (figures, logs)
 results/figures/*
